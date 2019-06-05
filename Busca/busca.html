@@ -13,8 +13,27 @@
     </div>
     <p id="output" class="escondido">Nehum item encontrado!</p>
 
-  </body>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script src="busca.js"></script>
+  <!-- não remova a class="backdrop" porque ela está sendo usada para
+         estilizar este elemento no CSS e usada também no JavaScript para ocultar
+         o vídeo depois que ele acaba -->
+    <aside class="backdrop">
+      <video src="VINHETA.mp4" autoplay muted>
+      </video>
+    </aside>
+    <script>
+      let tempo = 2000;
+      setTimeout(() => {
+        document.querySelector('.backdrop').classList.add('desaparecido');
+        document.querySelector('main').classList.remove('desaparecido');
+      }, tempo);
+      document.querySelector('#unmute').addEventListener('click', (e) => {
+        document.querySelector('.backdrop video').muted = false;
+        e.currentTarget.classList.add('desaparecido');
+      });
+    </script>
+    <script type="text/javascript" src="boos.js"></script>
+  </body>
 </html>

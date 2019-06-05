@@ -6,11 +6,7 @@ butao.addEventListener("click",function(){
   mudavalor(input.value)
 })
 
-let pagina = {nihonium:"Nh.html",
-moscovium:"Mv.html",
-tenessine:"Tn.html",
-oganesson:"Og.html",
-nihônio:"Nh.html",
+let pagina = {nihônio:"Nh.html",
 tenesso:"Tn.html",
 moscóvio:"Mv.html",
 oganessônio:"Og.html"
@@ -28,10 +24,6 @@ oganessônio:"Og.html"
 }
   $( function() {
     let availableTags = [
-      "nihonium",
-      "moscovium",
-      "tenessine",
-      "oganesson",
       "nihônio",
       "tenesso",
       "moscóvio",
