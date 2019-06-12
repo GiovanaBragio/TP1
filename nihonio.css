@@ -1,0 +1,73 @@
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#83f52c, black, black, black, black, black, black, black, black);
+  font-size: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-size: cover;
+  text-align: justify;
+}
+
+body,html{
+  height: 100%;
+}
+
+p{
+  font-size: 24px;
+  text-align: justify;
+  color: #00CD00;
+  color: #E0EEEE;
+  //PRIMEIRA COR: VERDE E SEGUNDA COR: CINZA
+}
+
+.imagens{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.curiosidade{
+
+  border: 1px solid rgb(109, 209, 27);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+h1{
+  font-size: 45px;
+  text-shadow: 0.1em 0.1em 0.15em #83f52c;
+}
+
+#abreAutores {
+  background-color: #83f52c;
+  border: 1px solid #83f52c;
+}
+
+#abreAutores:hover {
+  background-color: #121212;
+  border: 1px solid #121212;
+  color: #83f52c;
+}
+
+#fechaAutores {
+ color:#83f52c;
+}
+
+header {
+  box-shadow: #83f52c 0 0.25vw 8vw;
+}
+
+#abreNav {
+ color: #83f52c;
+}
+
+nav {
+ background-color: #83f52c;
+}
+
+
+main > h2, main > h3 {
+ color: #83f52c;
+}
