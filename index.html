@@ -3,11 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trabalho de Quimica / Web</title>
-  <link rel="stylesheet" href="master.css">
-  <link rel="stylesheet" href="index.css">
+  <title>Os Elementos Químicos Mais Recentes</title>
+  <link rel="icon" href="img/favicon.jpg">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/busca.css">
 </head>
 <body>
+  <div class="Busca">
+    <input id="input" type="text" name="" value="" placeholder="Pesquise uma página...">
+    <button id="butao" type="button" name="button"><img src="img/lupa.png" id="btnBusca" alt="Buscar"/></button>
+  </div>
+  <p id="output" class="escondido">Nehum item encontrado!</p>
+
   <header>
     <button type="button" id="abreNav">|||</button>
     <p>INF</p>
@@ -15,16 +24,15 @@
 
   <nav>
     <button type="button" id="fechaNav">✕</button>
-    
-    <h1><a href="#">Início</a></h1>
-    <h2>Elementos</h2>
-    <h3><a href="#">Nihônio</a></h3>
-    <h3><a href="#">Moscóvio</a></h3>
-    <h3><a href="#">Tenesso</a></h3>
-    <h3><a href="#">Oganessônio</a></h3>
-    <h2><a href="#">Testes</a></h2>
-    <h2><a href="#">Curiosidades</a></h2>
-    <h2><a href="#">Referências</a></h2>
+    <h1><a href="index.html">Início</a></h1>
+    <h1>Elementos</h2>
+    <h2><a href="nihonio.html">Nihônio</a></h3>
+    <h2><a href="moscovio.html">Moscóvio</a></h3>
+    <h2><a href="tenesso.html">Tenesso</a></h3>
+    <h2><a href="oganessonio.html">Oganessônio</a></h3>
+    <h1><a href="testes.html">Testes</a></h2>
+    <h1><a href="curiosidades.html">Curiosidades</a></h2>
+    <h1><a href="referencias.html">Referências</a></h2>
   </nav>
 
   <main>
@@ -51,32 +59,32 @@
     <p>A tabela atual possui 118 elementos sendo do 1 ao 92, elementos naturais e os demais elementos transurânicos, sintetizados em laboratório ou reatores nucleares. Os mais novos integrantes da tabela são os elementos 113, 115, 117 e 118. Clique em um elemento abaixo para ver mais informações sobre ele:</p>
 
     <section class="containerElementos">
-      <a class="elemento verde">
+      <a href="nihonio.html" class="elemento verde">
         <h2>113</h2>
         <h1>Nh</h1>
         <h2>Nihônio</h2>
       </a>
 
-      <a class="elemento azul">
+      <a href="moscovio.html" class="elemento azul">
         <h2>115</h2>
         <h1>Mc</h1>
         <h2>Moscóvio</h2>
       </a>
 
-      <a class="elemento roxo">
+      <a href="tenesso.html" class="elemento roxo">
         <h2>117</h2>
         <h1>Ts</h1>
         <h2>Tenesso</h2>
       </a>
 
-      <a class="elemento rosa">
+      <a href="oganessonio.html" class="elemento rosa">
         <h2>118</h2>
         <h1>Og</h1>
         <h2>Oganessônio</h2>
       </a>
     </section>
   </main>
-
+  
   <footer>
     <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
     <button type="button" id="abreAutores">Autores</button>
@@ -90,6 +98,10 @@
       <p>Os autores vão estar aqui ;)</p>
     </div>
   </div>
-  <script type="text/javascript" src="index.js"></script>
+  
+  <script src="js/master.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/busca.js"></script>
 </body>
 </html>

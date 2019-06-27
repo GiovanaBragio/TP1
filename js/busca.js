@@ -6,10 +6,15 @@ butao.addEventListener("click",function(){
   mudavalor(input.value)
 })
 
-let pagina = {nihônio:"Nh.html",
-tenesso:"Tn.html",
-moscóvio:"Mv.html",
-oganessônio:"Og.html"
+let pagina = {
+    nihônio:"nihonio.html",
+    tenesso:"tenesso.html",
+    moscóvio:"moscovio.html",
+    oganessônio:"oganessonio.html", 
+    inicial: "index.html",
+    referencias: "referencias.html",
+    curiosidades: "curiosidades.html",
+    quizes: "testes.html"
 }
 
  function mudavalor(string) {
@@ -19,7 +24,6 @@ oganessônio:"Og.html"
   }
   else{
     output.classList.remove("escondido");
-    //output.value = "Nenhum item Encontrado"
   }
 }
   $( function() {
@@ -27,7 +31,11 @@ oganessônio:"Og.html"
       "nihônio",
       "tenesso",
       "moscóvio",
-      "oganessônio"
+      "oganessônio",
+      "inicial",
+      "referencias",
+      "curiosidades",
+      "quizes"
     ];
     $( "#input" ).autocomplete({
       source: availableTags,

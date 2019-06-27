@@ -1,0 +1,31 @@
+header{
+  box-shadow: #FFF00A 0 -0.5vw 8vw;
+}
+
+#abreNav {
+  color: #FFF00A;
+}
+
+nav {
+  background-color: #FFF00A;
+}
+
+main > h1, main > h2, main > h3 {
+  color: #FFF00A;
+  text-shadow: 0 0 .1em #FFF00A;
+}
+
+#abreAutores {
+  background-color: #FFF00A;
+  border: 1px solid #FFF00A;
+}
+
+#abreAutores:hover {
+  background-color: #121212;
+  border: 1px solid #121212;
+  color: #FFF00A;
+}
+
+#fechaAutores {
+  color: #FFF00A;
+}

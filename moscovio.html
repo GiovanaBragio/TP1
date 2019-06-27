@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html>
-<header>
-  <button type="button" id="abreNav">|||</button>
-  <p>INF</p>
-</header>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moscóvio</title>
+  <link rel="icon" href="img/favicon.jpg">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/moscovio.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/busca.css">
+</head>
+<body>
+  <div class="Busca">
+    <input id="input" type="text" name="" value="" placeholder="Pesquise uma página...">
+    <button id="butao" type="button" name="button"><img src="img/lupa.png" id="btnBusca" alt="Buscar"/></button>
+  </div>
+  <p id="output" class="escondido">Nehum item encontrado!</p>
 
-<nav>
-  <button type="button" id="fechaNav">✕</button>
+  <header>
+    <button type="button" id="abreNav">|||</button>
+    <p>INF</p>
+  </header>
 
-  <h1><a href="index.html">Início</a></h1>
-  <h2>Elementos</h2>
-  <h3><a href="nihonio.html">Nihônio</a></h3>
-  <h3><a href="moscovio.html">Moscóvio</a></h3>
-  <h3><a href="tenesso.html">Tenesso</a></h3>
-  <h3><a href="organessonio.html">Oganessônio</a></h3>
-  <h2><a href="#">Testes</a></h2>
-  <h2><a href="#">Curiosidades</a></h2>
-  <h2><a href="#">Referências</a></h2>
-</nav>
-  <head>
-    <meta charset="utf-8">
-    <title>Moscóvio</title>
-      <link rel="icon" href="icon.jpg">
-      <link rel="stylesheet" href="moscovio.css">
-      <link rel="stylesheet" href="master.css">
-  </head>
-  <body>
-    <main>
+  <nav>
+      <button type="button" id="fechaNav">✕</button>
+      <h1><a href="index.html">Início</a></h1>
+      <h1>Elementos</h2>
+      <h2><a href="nihonio.html">Nihônio</a></h3>
+      <h2><a href="moscovio.html">Moscóvio</a></h3>
+      <h2><a href="tenesso.html">Tenesso</a></h3>
+      <h2><a href="oganessonio.html">Oganessônio</a></h3>
+      <h1><a href="testes.html">Testes</a></h2>
+      <h1><a href="curiosidades.html">Curiosidades</a></h2>
+      <h1><a href="referencias.html">Referências</a></h2>
+    </nav>
+ 
+  <main>
     <h1>Moscóvio</h1>
-    <img src="imgs/moscovium.svg" class="imagens" id="">
-    <p>Seu nome temporário era “Unumpêntio” , do latim "Ununseptium", pela IUPAC,
-       antes de ser formalmente nomeado.
-    </p>
-    <p>Ainda não foram sintetizados compostos contendo este elemento, devido à
-      sua vida extremamente curta e à falta de isótopos suficientemente estáveis
-      para que suas propriedades químicas sejam estudadas na prática. Tudo o que
-      se conhece são inferidos nas propriedades esperadas para o elemento, baseado
-      nas propriedades periódicas e efeitos relativísticos.
-    </p>
-    <p>Algumas propriedades extrapoladas do elemento são que moscóvio apresentaria
-      certas propriedades similares aos demais elementos do grupo 15, grupo do
-      nitrogênio, mas sua química e propriedades físicas possuiriam algumas
-      anomalias causadas pelos efeitos quânticos relativísticos que afetam os
-      elementos mais pesados do final do período 7.
-    </p>
-    <p class="curiosidade">
-      <img src="" class="">
-      <strong>Você sabia??</strong> O Moscovium é uma homenagem à região de Moscou e a antiga terra russa que
-        abriga o Instituto Conjunto para Pesquisa Nuclear, onde os experimentos de
-        descoberta foram conduzidos.
-    </p>
+    <img src="img/moscovium.svg" class="imgCentralizada imgElemento">
+
+    <p>Seu nome temporário era “Unumpêntio” , do latim "Ununseptium", pela IUPAC, antes de ser formalmente nomeado. </p>
+    <p>Ainda não foram sintetizados compostos contendo este elemento, devido à sua vida extremamente curta e à falta de isótopos suficientemente estáveis para que suas propriedades químicas sejam estudadas na prática. Tudo o que se conhece são inferidos nas propriedades esperadas para o elemento, baseado nas propriedades periódicas e efeitos relativísticos.</p>
+    <p>Algumas propriedades extrapoladas do elemento são que moscóvio apresentaria certas propriedades similares aos demais elementos do grupo 15, grupo do nitrogênio, mas sua química e propriedades físicas possuiriam algumas anomalias causadas pelos efeitos quânticos relativísticos que afetam os elementos mais pesados do final do período 7.</p>
+    <p class="curiosidade"><strong>Você sabia??</strong> O Moscovium é uma homenagem à região de Moscou e a antiga terra russa que abriga o Instituto Conjunto para Pesquisa Nuclear, onde os experimentos de descoberta foram conduzidos.</p>
   </main>
-  </body>
+
   <footer>
     <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
     <button type="button" id="abreAutores">Autores</button>
@@ -65,5 +58,10 @@
       <p>Os autores vão estar aqui ;)</p>
     </div>
   </div>
-  <script type="text/javascript" src="index.js"></script>
+  
+  <script src="js/master.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/busca.js"></script>
+</body>
 </html>

@@ -1,0 +1,123 @@
+header{
+  box-shadow: #FFF00A 0 -0.5vw 8vw;
+}
+
+#abreNav {
+  color: #FFF00A;
+}
+
+nav {
+  background-color: #FFF00A;
+}
+
+main > h1, main > h2, main > h3 {
+  color: #FFF00A;
+  text-shadow: 0 0 .1em #FFF00A;
+}
+
+#abreAutores {
+  background-color: #FFF00A;
+  border: 1px solid #FFF00A;
+}
+
+#abreAutores:hover {
+  background-color: #121212;
+  border: 1px solid #121212;
+  color: #FFF00A;
+}
+
+#fechaAutores {
+  color: #FFF00A;
+}
+
+.containerElementos {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 5vw 0;
+}
+
+.elemento {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 15vw;
+  width: 15vw;
+
+  border-radius: .5vw;
+  text-decoration: none;
+}
+
+.elemento h1 {
+  font-size: 2.5vw;
+}
+
+.elemento h2 {
+  font-size: 1.25vw;
+}
+
+.verde {
+  border: 1px solid #AAFF01;
+
+  color: #AAFF01;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.verde:hover {
+  background-color: #AAFF01;
+  border: 1px solid #AAFF01;
+
+  color: #121212;
+}
+
+.azul {
+  border: 1px solid #00AAFF;
+
+  color: #00AAFF;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.azul:hover {
+  background-color: #00AAFF;
+  border: 1px solid #00AAFF;
+
+  color: #121212;
+}
+
+.roxo {
+  border: 1px solid #AA00FF;
+
+  color: #AA00FF;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.roxo:hover {
+  background-color: #AA00FF;
+  border: 1px solid #AA00FF;
+
+  color: #121212;
+}
+
+.rosa {
+  border: 1px solid #FF00AA;
+
+  color: #FF00AA;
+
+  transition-timing-function: ease-in-out;
+  transition-duration: 300ms;
+}
+
+.rosa:hover {
+  background-color: #FF00AA;
+  border: 1px solid #FF00AA;
+
+  color: #121212;
+}

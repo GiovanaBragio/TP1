@@ -1,0 +1,38 @@
+header {
+  box-shadow: #AAFF01 0 -0.5vw 8vw;
+}
+
+#abreNav {
+  color: #AAFF01;
+}
+
+nav {
+  background-color: #AAFF01;
+}
+
+main > h1, main > h2, main > h3 {
+  color: #AAFF01;
+  text-shadow: 0 0 .1em #AAFF01;
+}
+
+#abreAutores {
+  background-color: #AAFF01;
+  border: 1px solid #AAFF01;
+}
+
+#abreAutores:hover {
+  background-color: #121212;
+  border: 1px solid #121212;
+  color: #AAFF01;
+}
+
+#fechaAutores {
+ color:#AAFF01;
+}
+
+.curiosidade{
+  border: 1px solid #AAFF01;
+  border-radius: .5vw;
+  padding: 1%;
+  width: 73%;
+}
