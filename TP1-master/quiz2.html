@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>O quanto você conhece da tabela periódica?</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/quiz2.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/busca.css">
+</head>
+<body>
+    <header>
+      <button type="button" id="abreNav">|||</button>
+      <p><img class="logo" src="img/logo-principal.png"></p>
+    </header>
+    <nav>
+        <button type="button" id="fechaNav">✕</button>
+          <h1><a href="index.html">Início</a></h1>
+          <h2>Elementos</h2>
+          <h3><a href="nihonio.html">Nihônio</a></h3>
+          <h3><a href="moscovio.html">Moscóvio</a></h3>
+          <h3><a href="tenesso.html">Tenesso</a></h3>
+          <h3><a href="oganessonio.html">Oganessônio</a></h3>
+          <h2><a href="testes.html">Testes</a></h2>
+          <h2><a href="curiosidades.html">Curiosidades</a></h2>
+          <h2><a href="referencias.html">Referências</a></h2>
+      </nav>
+    <main>
+      <h1>Testes</h1>
+      <div id="questao0">
+        <h1>O quanto você conhece da tebela periódica?</h1>
+        <p>Teste seus conhecimentos sobre a tabela periódica.</p>
+        <img id="tabela" src="img/Tabela.jpg">
+        <button id="comecar">Começar</button>
+      </div>
+      <div id="questao1" class="quiz escondido">
+        <h1></h1>
+        <h2>Questão 01:</h2>
+        <p class="perguntas">Qual é o símbolo do elemento:<strong>bóhrio</strong>?</p>
+        <p class="respostas"><input type="radio" name="questao1" value="0">B</p>
+        <p class="respostas"><input type="radio" name="questao1" value="1">Bh</p>
+        <p class="respostas"><input type="radio" name="questao1" value="0">Br</p>
+        <p class="respostas"><input type="radio" name="questao1" value="0">Bo</p>
+      </div>
+      <div id="questao2" class="quiz escondido">
+        <h2>Questão 02:</h2>
+        <p class="perguntas">Qual o maior número atômico da tabela periódica atual?</p>
+        <p class="respostas"><input type="radio" name="questao2" value="0">116</p>
+        <p class="respostas"><input type="radio" name="questao2" value="1">118</p>
+        <p class="respostas"><input type="radio" name="questao2" value="0">119</p>
+        <p class="respostas"><input type="radio" name="questao2" value="0">121</p>  
+      </div>
+      <div id="questao3" class="quiz escondido">
+        <h2>Questão 03:</h2>
+        <p class="perguntas">São elementos recentemente adicionados a tabela periódica, exceto:</p>
+        <p class="respostas"><input type="radio" name="questao3" value="0">Nihônio</p>
+        <p class="respostas"><input type="radio" name="questao3" value="0">Moscóvio</p>
+        <p class="respostas"><input type="radio" name="questao3" value="1">Flevório</p>
+        <p class="respostas"><input type="radio" name="questao3" value="0">Tenesso</p>
+      </div>
+      <div id="questao4" class="quiz escondido">
+        <h2>Questão 04:</h2>
+        <p class="perguntas">Qual desses elementos não faz parte da família dos alcalinos terrosos?</p>
+        <p class="respostas"><input type="radio" name="questao4" value="1">Manganês</p>
+        <p class="respostas"><input type="radio" name="questao4" value="0">Rádio</p>
+        <p class="respostas"><input type="radio" name="questao4" value="0">Estrôncio</p>
+        <p class="respostas"><input type="radio" name="questao4" value="0">Berílio</p>
+      </div>
+      <div id="questao5" class="quiz escondido">
+        <h2>Questão 05:</h2>
+        <p class="perguntas">É um metal de transição:</p>
+        <p class="respostas"><input type="radio" name="questao5" value="0">Germânio</p>
+        <p class="respostas"><input type="radio" name="questao5" value="0">Gálio</p>
+        <p class="respostas"><input type="radio" name="questao5" value="0">Tálio</p>
+        <p class="respostas"><input type="radio" name="questao5" value="1">Paládio</p>
+      </div>
+      <div id="questao6" class="quiz escondido">
+        <h2>Questão 06:</h2>
+        <p class="perguntas">É correto afirmar</p>
+        <p class="respostas"><input type="radio" name="questao6" value="0">Elementos do 57 a 71 fazem parte da série dos actinídeos.</p>
+        <p class="respostas"><input type="radio" name="questao6" value="1">Os elementos a partir do elemento 92 são sintéticos, produzidos em laboratório.</p>
+        <p class="respostas"><input type="radio" name="questao6" value="0">Elementos do 89 a 103 fazem parte da série dos lantanídeos.</p>
+        <p class="respostas"><input type="radio" name="questao6" value="0">A tabela periódica tem 9 período e 18 grupos.</p>
+      </div>
+      <div id="questao7" class="quiz escondido">
+        <h2>Questão 07:</h2>
+        <p class="perguntas">Está no 4º período o elemento:</p>
+        <p class="respostas"><input type="radio" name="questao7" value="1">Criptônio</p>
+        <p class="respostas"><input type="radio" name="questao7" value="0">Sódio</p>
+        <p class="respostas"><input type="radio" name="questao7" value="0">Nióbio</p>
+        <p class="respostas"><input type="radio" name="questao7" value="0">Iodo</p>
+      </div>
+      <div id="questao8" class="quiz escondido">
+        <h2>Questão 08:</h2>
+        <p class="perguntas">Os períodos da tabela periódica são:</p>
+        <p class="respostas"><input type="radio" name="questao8" value="0">Linhas verticais que representam o número de elétrons na camada de valência.</p>
+        <p class="respostas"><input type="radio" name="questao8" value="0">Linhas horizontais que representam o número de elétrons na camada de valência.</p>
+        <p class="respostas"><input type="radio" name="questao8" value="0">Linhas verticais que representam o número de camadas eletrônicas.</p>
+        <p class="respostas"><input type="radio" name="questao8" value="1">Linhas horizontais que representam o número de camadas eletrônicas.</p>
+      </div>
+      <div id="questao9" class="quiz escondido">
+        <h2>Questão 09:</h2>
+        <p class="perguntas">Está corretamente associado o nome ao símbolo elemento, exceto:</p>
+        <p class="respostas"><input type="radio" name="questao9" value="1">Tu - tungstênio</p>
+        <p class="respostas"><input type="radio" name="questao9" value="0">Pb - chumbo</p>
+        <p class="respostas"><input type="radio" name="questao9" value="0">Pl - paládio</p>
+        <p class="respostas"><input type="radio" name="questao9" value="0">As - astato</p>
+      </div>
+      <div id="questao10" class="quiz escondido">
+        <h2>Questão 10:</h2>
+        <p class="perguntas">Urânio está no bloco:</p>
+        <p class="respostas"><input type="radio" name="questao10" value="0">s</p>
+        <p class="respostas"><input type="radio" name="questao10" value="0">d</p>
+        <p class="respostas"><input type="radio" name="questao10" value="1">f</p>
+        <p class="respostas"><input type="radio" name="questao10" value="0">p</p>
+      </div>
+    <div id="quimico" class="escondido">
+      <h1>O quanto você conhece da tebela periódica?</h1>
+      <p id="resultado">Resultado</p>
+      <img id="img-coment"src="img/marie-curie.png">
+      <p id="coment">Comentário.</p>
+      <a href="testes.html">Voltar para página de testes.</a>
+    </div>
+    <button id="proximo" class="escondido">Próximo</button>  
+  </main>
+    <footer>
+      <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
+      <button type="button" id="abreAutores">Autores</button>
+    </footer>
+      <div class="fundoEscuro" id="fundoEscuro">
+      <div class="Modal" id="autores">
+      <button type="button" id=fechaAutores>✕</button>
+      <h1>Autores</h1>
+      <p>O website é um projeto desenvolvido por alunos da turma INF1A, do primeiro ano do Curso Técnico em Informática, para as disciplinas de Química e Desenvolvimento Web. Estes são os autores:</p>
+      <p>Os autores vão estar aqui ;)</p>
+    </div>
+  <script src="js/quiz2.js"></script>
+  <script src="js/master.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/busca.js"></script>
+</body>
+</html>

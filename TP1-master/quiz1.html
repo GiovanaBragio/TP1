@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Qual a cantada química de acordo com seu signo?</title>
+  <link rel="icon" href="img/favicon.jpg">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/quiz1.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/busca.css">
+</head>
+<body>
+  <div class="Busca">
+    <input id="input" type="text" name="" value="" placeholder="Pesquise uma página...">
+    <button id="butao" type="button" name="button"><img src="img/lupa.png" id="btnBusca" alt="Buscar"/></button>
+  </div>
+  <p id="output" class="escondido">Nehum item encontrado!</p>
+
+  <header>
+    <button type="button" id="abreNav">|||</button>
+    <p><img class="logo" src="img/logo-principal.png"></p>
+  </header>
+
+  <nav>
+    <button type="button" id="fechaNav">✕</button>
+    <h1><a href="index.html">Início</a></h1>
+    <h1>Elementos</h2>
+    <h2><a href="nihonio.html">Nihônio</a></h3>
+    <h2><a href="moscovio.html">Moscóvio</a></h3>
+    <h2><a href="tenesso.html">Tenesso</a></h3>
+    <h2><a href="oganessonio.html">Oganessônio</a></h3>
+    <h1><a href="testes.html">Testes</a></h2>
+    <h1><a href="curiosidades.html">Curiosidades</a></h2>
+    <h1><a href="referencias.html">Referências</a></h2>
+  </nav>
+  <main>
+    <h1 id="titulo-principal">Testes</h1>
+    <div id="questao0">
+      <h2>Qual a cantada de química de acordo com seu signo?</h2>
+      <p>Descubra a partir de seu signo qual cantada mandar para o @ e gadiar como ninguém.</p>
+      <img id="piscadinha" src="img/piscadinha.gif">
+      <button id="comecar">Começar</button>
+    </div>
+    <div id="questao1" class="escondido">
+      <h2>Qual a cantada de química de acordo com seu signo?</h2>
+      <p class="perguntas">Selecione seu signo:</p>
+      <div id="aries" class="signos verde">
+        <p><input type="radio" name="questao1" value="0">Áries</p>
+        <img class="img-" src="img/aries.png">
+      </div>
+
+      <div id="touro" class="signos azul">
+        <p><input type="radio" name="questao1" value="1">Touro</p>
+        <img class="img-" src="img/touro.png">
+      </div>
+
+      <div id="gemeos" class="signos roxo">
+        <p><input type="radio" name="questao1" value="2">Gêmeos</p>
+        <img class="img-" src="img/gemeos.png">
+      </div>
+
+      <div id="cancer" class="signos rosa">
+        <p><input type="radio" name="questao1" value="3">Câncer</p>
+        <img class="img-" src="img/cancer.png">
+      </div>
+
+      <div id="leao" class="signos verde">
+        <p><input type="radio" name="questao1" value="4">Leão</p>
+        <img class="img-" src="img/leao.png">
+      </div>
+
+      <div id="virgem" class="signos azul">
+        <p><input type="radio" name="questao1" value="5">Virgem</p>
+        <img class="img-" src="img/VIRGEM.png">
+      </div>
+
+      <div id="libra" class="signos roxo">
+        <p><input type="radio" name="questao1" value="6">Libra</p>
+        <img class="img-" src="img/libra.png">
+      </div>
+
+      <div id="escorpiao" class="signos rosa">
+        <p><input type="radio" name="questao1" value="7">Escorpião</p>
+        <img class="img-" src="img/escorpiao.png">
+      </div>
+
+      <div id="sagitario" class="signos verde">
+        <p><input type="radio" name="questao1" value="8">Sagitário</p>
+        <img class="img-" src="img/sagitario.png">
+      </div>
+
+      <div id="capricornio" class="signos azul">
+        <p><input type="radio" name="questao1" value="9">Capricórnio</p>
+        <img class="img-" src="img/capricornio.png">
+      </div>
+
+      <div id="aquario" class="signos roxo">
+        <p><input type="radio" name="questao1" value="10">Aquário</p>
+        <img class="img-" src="img/aquario.png">
+      </div>
+
+      <div id="peixes" class="signos rosa">
+        <p><input type="radio" name="questao1" value="11">Peixes</p>
+        <img class="img-" src="img/peixes.png">
+      </div>
+    </div>
+
+    <div id=resultado class="escondido">
+        <h2>Qual a cantada de química de acordo com seu signo?</h2>
+        <p id="mensagem">Escolha um signo.</p>
+        <img src="img/howya.gif">
+        <br>
+        <a href="testes.html">Voltar para página de testes.</a>
+    </div>
+    <button id="proximo" class="escondido">Próximo</button>
+  </main>  
+  <footer>
+    <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
+    <button type="button" id="abreAutores">Autores</button>
+  </footer>
+
+  <div class="fundoEscuro" id="fundoEscuro">
+    <div class="Modal" id="autores">
+      <button type="button" id=fechaAutores>✕</button>
+      <h1>Autores</h1>
+      <p>O website é um projeto desenvolvido por alunos da turma INF1A, do primeiro ano do Curso Técnico em Informática, para as disciplinas de Química e Desenvolvimento Web. Estes são os autores:</p>
+      <p>Os autores vão estar aqui ;)</p>
+    </div>
+  </div>
+  
+  <script src="js/quiz1.js"></script>
+  <script src="js/master.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/busca.js"></script>
+</body>
+</html>

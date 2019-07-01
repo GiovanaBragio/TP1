@@ -1,0 +1,118 @@
+body{
+   text-align: center;
+}
+#abreAutores {
+    background-color: #FFF00A;
+    border: 1px solid  #FFF00A;
+}
+#abreAutores:hover {
+    background-color: #121212;
+    border: 1px solid #121212;
+   color: #FFF00A;
+}
+#fechaAutores {
+   color: #FFF00A;
+}
+header {
+    box-shadow: #FFF00A 0 0.25vw 8vw;
+}
+#abreNav {
+   color: #FFF00A;
+}
+nav {
+   background-color: #FFF00A;
+  }
+main > h1, main > h2, main > h3 {
+ color:  #FFF00A;
+}
+h1{
+ text-align: center; 
+}
+footer {
+  bottom:0;
+  left:0;
+  right: 0;
+}
+button{
+  background-color: #121212;
+  border: 1px solid #FFF00A;
+  color: #FFF00A;
+  border-radius: 10px;
+}
+.escondido{
+   display: none;
+}
+#quimico{
+   margin: 20%;
+   color: white;
+   margin-top: 0%;
+}
+.quiz{
+   align-items: center;
+   height: 40vh;
+   width: 40vw;
+   border-radius: .5vw;
+   background-color: #FFF00A;
+   color: #121212;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 2%;
+   margin-top: 2%; 
+}
+#tabela{
+   width:60%;
+}
+main{
+   width: 70vw;
+   height: 65vh;
+   padding: 5%;
+   margin-left: 5%;
+   margin-bottom:5%;
+}
+#questao0{
+   align-items: center;
+   height: 55vh;
+   width: 50vw;
+   border-radius: .5vw;
+   background-color: #FFF00A;
+   color: #121212;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3%;
+   margin-top: 2%; 
+}
+#proximo{
+  position: absolute;
+  top: 50vh;
+  left: 60vw;
+}
+#comecar{
+  position: absolute;
+  top: 67vh;
+  left: 63vw;
+}
+.respostas{
+   text-align: justify;
+}
+#quimico:h1{
+   color:white;
+}
+h1{
+   margin-top: 0%;
+}
+#resultado{
+   font-size: 200%;
+}
+#coment{
+   font-size: 120%;
+}
+a{
+   text-decoration: none;
+   color: #FFF00A;   
+}
+#img-coment{
+   width: 60%;
+
+}
