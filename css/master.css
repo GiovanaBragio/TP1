@@ -12,6 +12,8 @@
   Branco: #FFFFFF ou 'white'
 */
 
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans&display=swap');
+
 body, html {
   height: 100%;
 }
@@ -32,6 +34,14 @@ body {
   text-align: justify;
   color: white;
   font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 button:focus {
@@ -189,4 +199,33 @@ footer {
 .imgElemento {
   float: right;
   width: 25%;
+}
+
+.logo{
+  width: 8vw;
+}
+
+.video {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.containerImgAutores {
+  display: flex;
+  justify-content: space-around;
+}
+
+.containerImgAutores img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.nomeAutor {
+  width: 100%;
+  height: 3vw;
+  padding: 0.1vw;
+  background-color: #212121;
+  border-radius: 1.5vw;
+  text-align: center;
+  box-sizing: border-box;
 }

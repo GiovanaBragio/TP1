@@ -29,3 +29,7 @@ main > h1, main > h2, main > h3 {
 #fechaAutores {
   color: #FFF00A;
 }
+
+.video {
+  border-color: #FFF0AA;
+}

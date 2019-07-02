@@ -14,7 +14,7 @@
 <body>
     <header>
       <button type="button" id="abreNav">|||</button>
-      <p>INF</p>
+      <p><img class="logo" src="img/logo-principal.png"></p>
     </header>
     <nav>
         <button type="button" id="fechaNav">✕</button>
@@ -126,17 +126,27 @@
     </div>
     <button id="proximo" class="escondido">Próximo</button>  
   </main>
-    <footer>
-      <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
-      <button type="button" id="abreAutores">Autores</button>
-    </footer>
-      <div class="fundoEscuro" id="fundoEscuro">
-      <div class="Modal" id="autores">
+  <footer>
+    <p>Este website foi desenvolvido por alunos do Curso Técnico em Informática do Centro Federal de Educação Tecnológica de Minas Gerais da cidade de Belo Horizonte.</p>
+    <button type="button" id="abreAutores">Autores</button>
+  </footer>
+  <div class="fundoEscuro" id="fundoEscuro">
+    <div class="Modal" id="autores">
       <button type="button" id=fechaAutores>✕</button>
       <h1>Autores</h1>
-      <p>O website é um projeto desenvolvido por alunos da turma INF1A, do primeiro ano do Curso Técnico em Informática, para as disciplinas de Química e Desenvolvimento Web. Estes são os autores:</p>
-      <p>Os autores vão estar aqui ;)</p>
+      <p>O website é um projeto desenvolvido por alunos da turma INF1A, do primeiro ano do Curso Técnico em Informática, para as disciplinas de Química e Desenvolvimento Web. Estes são os autores (passe o mouse em cima para ver os nomes):</p>
+      <div class="containerImgAutores">
+        <img src="img/icone-gabriel.jpeg" class="imgAutores" alt="Gabriel Coelho dos Santos">
+        <img src="img/icone-giovana.jpeg" class="imgAutores" alt="Giovana Caroba Bragio dos Santos">
+        <img src="img/icone-janine.jpeg" class="imgAutores" alt="Janine de Amorim Teodoro">
+        <img src="img/icone-leticia.jpeg" class="imgAutores" alt="Letícia Araújo Ribeiro">
+        <img src="img/icone-duda.jpeg" class="imgAutores" alt="Maria Eduarda Carmona Banhos">
     </div>
+    <div class="nomeAutor" id="nomeAutor">
+      <p id="textoNomeAutor"></p>
+    </div>
+    </div>
+  </div>
   <script src="js/quiz2.js"></script>
   <script src="js/master.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
