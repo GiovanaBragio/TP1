@@ -64,3 +64,7 @@ button{
 .backdrop video{
   width: 100%;
 }
+
+#btnBusca:hover {
+  cursor: pointer;
+}
